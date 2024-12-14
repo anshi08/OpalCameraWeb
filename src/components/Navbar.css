@@ -1,0 +1,15 @@
+.bg_color {
+    background-color: rgb(255 219 1) !important;
+  }
+  
+  .toolBar_margin {
+    min-height: 45px !important;
+  }
+  
+  
+  @media (max-width: 470px) {
+    .toolBar_margin {
+      min-height: 50px !important;
+    }
+  }
+  

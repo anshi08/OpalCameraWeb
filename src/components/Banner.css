@@ -1,0 +1,75 @@
+.banner-container {
+    position: relative;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    transform: translateY(-50%);
+  }
+  
+  .banner-content h2 {
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+    width: 60%;
+    line-height: normal;
+  }
+  
+  .btn {
+    margin-top: 2rem;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    transform: translateY(-50%);
+  }
+  
+  .btn h6 {
+    background-color: rgb(255, 219, 1);
+    padding: 10px;
+    border-radius: 30px;
+    width: auto !important;
+  }
+  
+  /* Add responsive styles for mobile screens */
+  @media (max-width: 768px) {
+    .banner-content {
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 90%; /* Adjust width to fit smaller screens */
+    }
+  
+    .banner-content h2 {
+      font-size: 1.5rem; /* Slightly smaller font for mobile */
+      line-height: 1.5; /* Adjust line height for readability */
+      width: 100%;
+    }
+  
+    .btn {
+      top: auto;
+      /* left: 50%; */
+      bottom: 35%; /* Place the button a bit above the bottom */
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .btn h6 {
+      font-size: 1rem; /* Adjust font size for mobile */
+    }
+  }
+
+  @media(max-width:345px){
+    .btn{
+        left: 5%;
+        top: 25rem;
+    }
+  }
+  

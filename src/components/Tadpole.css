@@ -1,0 +1,62 @@
+.main_heading{
+    font-size: 32px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+    font-weight: bold !important;
+    margin-top: 2rem !important;
+    text-align: center;
+}
+
+.sub_heading{
+    color: rgb(149 149 149) !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: center;
+}
+
+
+.buy_btn {
+    background-color: rgb(255, 219, 1) !important;   
+    padding: 0.5rem 2rem !important; 
+    border-radius: 30px !important; 
+    width: fit-content !important;
+    color: black !important;
+    font-size: 16px !important;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.buy_btn:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.tadpolImg{
+    scale: 1.15;
+}
+
+.verticalLine {
+    position: relative;
+  }
+  
+ 
+  .verticalLine::after {
+    content: '';
+    position: absolute;
+    top: 2.5rem;
+    bottom: 0;
+    left: 51%; 
+    width: 2px;
+    background-color: #e1e1e1;
+  }
+  
+  /* Hide the vertical line on mobile */
+  @media (max-width: 768px) {
+    .verticalLine::after {
+      display: none;
+    }
+  }
+  
