@@ -1,0 +1,42 @@
+.Navigation_logoLink__kWsUK {
+    margin-top: -1px;
+    margin-left: -1px;
+    width: 52px;
+    height: 26px;
+    pointer-events: all;
+    display: block;
+}
+
+.Navigation_list__iaD8Z {
+    margin-top: 1px;
+    display: grid;
+    height: 252px;
+    width: 100%;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+
+.selector-title{
+    color: white;
+    padding: 2rem;
+}
+
+
+.ul-container.scrolled a {
+    display: none; 
+}
+
+.ul-container.scrolled:hover a {
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.95); 
+    color: black;
+    padding: 8px 16px; 
+    margin: 5px 0; 
+    border-radius: 6px; 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
